@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Meus Pedidos</title>
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+        <span class="logo"><img src="assets/toplogo.png" alt=""></span>
+    <div class="search">
+        <input type="text" placeholder="Tênis">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="user-area">
+        <span class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </span>
+        <span class="user">
+            <i class="fa-regular fa-user"></i>
+            Olá Francisco
+        </span>
+    </div>
+</header>
+
+<nav class="menu">
+    <a href="#">Home</a>
+    <a href="#">Produtos</a>
+    <a href="#">Categorias</a>
+    <a href="#" class="active">Meus Pedidos</a>
+</nav>
+
+<main class="container">
+
+    <aside class="sidebar">
+        <h4>Meu Perfil</h4>
+        <a class="active">Meus Pedidos</a>
+        <a>Minhas Informações</a>
+        <a>Métodos de Pagamento</a>
+    </aside>
+
+    <section class="orders">
+
+        <div class="orders-header">
+            <h3>Meus Pedidos</h3>
+            <span>STATUS</span>
+        </div>
+
+        <div class="order-item">
+            <div class="product-image">
+                <img src="assets/sapatotop.png" alt="">
+            </div>
+            <div class="order-info">
+                <small>Pedido nº 2234981932</small>
+                <p>Tênis Nike Revolution 6 Next Nature Masculino</p>
+            </div>
+            <span class="status transit">Produto em trânsito</span>
+        </div>
+
+        <div class="order-item">
+            <div class="product-image">
+            <img src="assets/sapatotop.png" alt="">
+            </div>
+            <div class="order-info">
+                <small>Pedido nº 4495810492</small>
+                <p>Tênis Nike Revolution 6 Next Nature Masculino</p>
+            </div>
+            <span class="status done">Finalizado</span>
+        </div>
+
+        <div class="order-item">
+            <div class="product-image">
+                <img src="assets/sapatotop.png" alt="">
+            </div>
+            <div class="order-info">
+                <small>Pedido nº 4495810492</small>
+                <p>Tênis Nike Revolution 6 Next Nature Masculino</p>
+            </div>
+            <span class="status cancel">Cancelado</span>
+        </div>
+
+    </section>
+
+</main>
+</body>
+</html>
